@@ -1,9 +1,9 @@
-<!-- Paste this into the GitHub Releases "Describe this release" box, or
-     pass via: gh release create vX.Y.Z --notes-file RELEASE_NOTES.md    -->
+<!-- Consumed by `make publish` in mss_app. Tokens below are substituted:
+     __VERSION__ __BUILD__ __SHA__ __CHECKSUM__                        -->
 
-## MSS v<VERSION>+<BUILD>
+## MSS v__VERSION__+__BUILD__
 
-Signed + notarized macOS bundle. Unzip `MSS_<VERSION>+<BUILD>.zip`,
+Signed + notarized macOS bundle. Unzip `MSS___VERSION__+__BUILD__.zip`,
 drag `MSS.app` to `/Applications`.
 
 ### Highlights
@@ -27,5 +27,5 @@ drag `MSS.app` to `/Applications`.
 
 ---
 
-**Source** (private): `flutter-mss/mss_app@<git-sha>`
-**Checksum** (sha256): `<compute via `shasum -a 256 MSS_<VERSION>+<BUILD>.zip`>`
+**Source** (private): `flutter-mss/mss_app@__SHA__`
+**Checksum** (sha256): `__CHECKSUM__`

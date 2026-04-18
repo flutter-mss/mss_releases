@@ -6,20 +6,6 @@
 Signed + notarized macOS bundle. Unzip `MSS___VERSION__+__BUILD__.zip`,
 drag `MSS.app` to `/Applications`.
 
-### Highlights
-
-- <short bullet>
-- <short bullet>
-
-### Changes
-
-- <changelog entry>
-- <changelog entry>
-
-### Known issues
-
-- <anything to flag>
-
 ### Requirements
 
 - macOS 10.15+ (Apple Silicon or Intel)

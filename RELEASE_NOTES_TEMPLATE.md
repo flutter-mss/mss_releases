@@ -1,8 +1,6 @@
 <!-- Consumed by `make publish` in mss_app. Tokens below are substituted:
      __VERSION__ __BUILD__ __SHA__ __CHECKSUM__                        -->
 
-## MSS v__VERSION__+__BUILD__
-
 Signed + notarized macOS bundle. Unzip `MSS___VERSION__+__BUILD__.zip`,
 drag `MSS.app` to `/Applications`.
 
